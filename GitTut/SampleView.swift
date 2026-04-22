@@ -9,7 +9,11 @@ import SwiftUI
 
 struct SampleView: View {
     var body: some View {
-        Text("ts mad fire")
+        
+        ZStack {
+            Text("ts mad fire")
+        }
+        .foregroundStyle(.red)
     }
 }
 
