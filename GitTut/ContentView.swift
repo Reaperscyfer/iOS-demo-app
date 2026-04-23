@@ -17,6 +17,14 @@ struct ContentView: View {
             Text("Git is COOL!")
                 .padding(.bottom, 10)
             SampleView()
+                .padding(.bottom, 20)
+            
+            Text("\(Car(speed: 10))")
+            Text("\(Car(speed: 20))")
+            Text("\(Car(speed: 30))")
+            Text("\(Car(speed: 40))")
+            
+            
         }
         .foregroundStyle(.blue)
         .padding()
