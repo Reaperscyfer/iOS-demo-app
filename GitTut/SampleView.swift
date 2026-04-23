@@ -11,9 +11,10 @@ struct SampleView: View {
     var body: some View {
         
         ZStack {
-            Text("ts mad fire")
+            Text("RACETIME")
         }
-        .foregroundStyle(.red)
+        .font(.title2)
+        .fontWeight(.heavy)
     }
 }
 
