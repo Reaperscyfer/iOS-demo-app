@@ -14,6 +14,8 @@ struct Car {
         speed += newSpeed
     }
     
-    
+    func currentSpeed() -> Int {
+        return speed
+    }
     
 }
