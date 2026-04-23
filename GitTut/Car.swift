@@ -7,8 +7,13 @@
 
 struct Car {
     var speed: Int
-    
+    var distanceTraveled: Int {
+        speed * 3
+    }
     mutating func accelerate(newSpeed: Int) {
         speed += newSpeed
     }
+    
+    
+    
 }
