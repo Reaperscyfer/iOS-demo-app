@@ -18,4 +18,8 @@ struct Car {
         return speed
     }
     
+    mutating func stopCar() {
+        speed = 0
+    }
+    
 }
