@@ -10,6 +10,8 @@ import SwiftUI
 struct newView: View {
     var body: some View {
         Text("bok bok")
+            .font(.largeTitle)
+            .bold()
     }
 }
 
